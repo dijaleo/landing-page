@@ -75,3 +75,42 @@ a:active{
 .des-pic button{
     margin-top: 25px;
 }
+
+.member{
+    height: 200px;
+    width: 200px;
+    border: 5px solid #1da1f2;
+    border-radius: 15px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    background-image: url(./images/First_Finale_cover.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 650px;
+    justify-content: center;
+}
+
+.members{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex: 1;
+    align-items: flex-start;
+}
+
+.subtext{
+    width: 210px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.main h3{
+    color: #ffffff;
+    font-size: 25px;
+    height: 150px;
+}
