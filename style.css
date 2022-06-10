@@ -1,3 +1,7 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+
 body{
     display: flex;
     flex-direction: column;
@@ -39,6 +43,12 @@ body{
     width: 50%;
     margin-right: 210px;
     line-height: 30px;
+}
+
+.pic-sub{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .description{
@@ -91,7 +101,7 @@ a:active{
     background-image: url(./images/First_Finale_cover.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 650px;
+    height: 900px;
     justify-content: center;
 }
 
@@ -99,7 +109,7 @@ a:active{
     display: flex;
     justify-content: center;
     gap: 100px;
-    flex: 1;
+    flex: 0.75;
     align-items: flex-start;
 }
 
@@ -113,4 +123,72 @@ a:active{
     color: #ffffff;
     font-size: 25px;
     height: 150px;
+}
+
+.quote{
+    height: 400px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#quote{
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 135px;
+}
+
+.quote-space{
+    background-color: #bcbcbc;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.Kong{
+    font-size: 17px;
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: whitesmoke;
+    width: 710px;
+}
+
+.updates{
+    height: 100px;
+    background-color: #1da1f2;
+    border-radius: 15px;
+    padding: 10px 50px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+div.updates button.twitter{
+    border: 2px solid white;
+    border-radius: 15px;
+    height: 52px;
+    align-self: center;
+    display: flex;
+    align-items: center;
+}
+
+.copyright{
+    background-color: #0B1530;
+    color: whitesmoke;
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    padding: 30px;
 }
