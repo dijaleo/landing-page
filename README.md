@@ -1,6 +1,6 @@
 # Landing page project
 
-This is my attempt at making the landing page project from [TOP](theodinproject.com).
+This is my attempt at making the landing page project from [TOP](https://www.theodinproject.com/).
 
 I know the style sheet is a bit of a mess; though i got it to display the way I wanted, any suggestions are welcome.
 
@@ -24,7 +24,7 @@ Toshitsugu Nishihara's picture is from [Discorgs](https://www.discogs.com/artist
 
 # Personal notes
 
-Final project with CSS before moving onto JavaScript with the help of [TOP](theodinproject.com)
+Final project with CSS before moving onto JavaScript with the help of [TOP](https://www.theodinproject.com/)
 
 Hopefully I'll be able to create something that looks decent with my current knowldege.
 
